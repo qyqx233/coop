@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+/* h1 { 
+  color: red; 
+} */
+
+.main-heading { 
+  color: gray; 
+}
+      
+h1 { 
+  color: blue; 
+}

@@ -1,0 +1,47 @@
+<body>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: 200px;
+            grid-template-areas:
+                "a a a a b b b b"
+                /* "a a a a b b b b" */
+                /* "c c c c d d d d" */
+                "c c c c d d d d";
+        }
+
+        .item1 {
+            grid-area: a;
+            background-color: lightseagreen;
+        }
+
+        .item2 {
+            background-color: lime;
+            grid-area: b;
+            align-self: normal;
+        }
+
+        .item3 {
+            background-color: mediumorchid;
+            grid-area: c;
+            align-self: end;
+        }
+
+        .item4 {
+            background-color: olive;
+            grid-area: d;
+            align-self: center;
+            ;
+        }
+    </style>
+    <div class="wrapper">
+        <div class="item1">112323</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <!-- <div class="item5">5</div>
+        <div class="item6">6</div> -->
+    </div>
+</body>
